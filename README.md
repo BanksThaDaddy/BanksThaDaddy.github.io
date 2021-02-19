@@ -7,4 +7,4 @@ Hello, I am a 16-year-old frontend web developer primarily with an extensive kno
 [GitHub](https://github.com/BanksThaDaddy)\
 [Instagram](https://instagram.com/BanksThaDaddy)\
 [Discord](https://discord.bio/p/banks)\
-[Steam](https://steamcommunity.com/id/BanksThaDaddy/)\
+[Steam](https://steamcommunity.com/id/BanksThaDaddy/)
