@@ -1,0 +1,152 @@
+<html>
+  <head>
+    <title>BanksThaDaddy</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      href="https://i.imgur.com/H043WJP.jpg"
+      rel="shortcut icon"
+      type="image/png"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.materialdesignicons.com/5.2.45/css/materialdesignicons.min.css"
+    />
+    <meta name="theme-color" content="#94b1d1" />
+    <meta name="description" content="16-year-old web developer and content creator" />
+    <meta property="og:title" content="BanksThaDaddy" />
+    <meta property="og:image" content="https://i.imgur.com/H043WJP.jpg" />
+    <meta
+      property="og:description"
+      content="16-year-old web developer and content creator"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    <div class="head">
+      <div id="particles-js">
+        <canvas
+          class="particles-js-canvas-el"
+          width="1314"
+          height="600"
+          style="width: 100%; height: 100%;"
+        ></canvas>
+      </div>
+      <div class="banner-textarea aos-init aos-animate" data-aos="fade-down">
+        <div class="banner-title">
+          <span style="font-weight: 500;">BanksThaDaddy</span>
+        </div>
+        <div class="banner-slogan">16-year-old web developer and content creator</div>
+      </div>
+    </div>
+    <div class="banner-image-wrapper">
+      <img src="https://i.imgur.com/UwpEIdz.png" class="banner-img" />
+    </div>
+    <section class="footer">
+      <div class="footer-container">
+        <div class="copyright-section">
+          <div class="copyright-divider"></div>
+          <div class="copyright-main">
+            © 2021 BanksThaDaddy. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS("particles-js", {
+        particles: {
+          number: {
+            value: 200,
+            density: {
+              enable: true,
+              value_area: 1500
+            }
+          },
+          color: {
+            value: "#eb3349"
+          },
+          shape: {
+            type: "circle",
+            stroke: {
+              width: 0,
+              color: "#000000"
+            },
+            polygon: {
+              nb_sides: 5
+            },
+            image: {
+              src: "img/github.svg",
+              width: 100,
+              height: 100
+            }
+          },
+          opacity: {
+            value: 0.2,
+            random: false,
+            anim: {
+              enable: false,
+              speed: 1,
+              opacity_min: 0.1,
+              sync: false
+            }
+          },
+          size: {
+            value: 3,
+            random: true,
+            anim: {
+              enable: false,
+              speed: 40,
+              size_min: 0.1,
+              sync: false
+            }
+          },
+          line_linked: {
+            enable: false,
+            distance: 70,
+            color: "#ffffff",
+            opacity: 0.1,
+            width: 1
+          },
+          move: {
+            enable: true,
+            speed: 2,
+            direction: "none",
+            random: true,
+            straight: false,
+            out_mode: "out",
+            bounce: false
+          }
+        },
+        interactivity: {
+          detect_on: "canvas",
+          events: {
+            onhover: {
+              enable: false,
+              mode: "repulse"
+            },
+            onclick: {
+              enable: false,
+              mode: "push"
+            },
+            resize: true
+          }
+        },
+        retina_detect: true
+      });
+      AOS.init();
+    </script>
+    <script src="assets/js/title.js"></script>
+  </body>
+</html>
